@@ -1,0 +1,63 @@
+body                 {
+    background-color: hsl(257, 40%, 49%);
+    background-image: url("../images/bg-desktop.svg");
+    padding: 1em;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+}
+
+.logo {
+    width: 150px;
+}
+
+.tabs {
+    width: 600px;
+}
+
+.content                   {
+    border: 0px;
+    color: rgb(236, 230, 241);
+    justify-content: flex-end;
+    margin: 1em;
+    padding: 0em;
+}
+
+h1                   {
+    font-family: 'Poppins', sans-serif;
+    color: antiquewhite;
+    text-align: center;
+    font-weight: 600;
+}
+
+.boton               {
+    padding: 10px;
+    background: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    font: bold 15px/15px verdana;
+    width: 150px;
+    cursor: pointer;
+    cursor: hand;
+    text-align: center;
+    justify-content: end;
+    border-radius: 20px;
+}
+
+.container-flex      {
+    display: flex;
+}
+
+.flex-column         {
+    flex-direction: column;
+}
+/* 
+.justify-content-end {
+    justify-content: flex-end;
+}
+
+.justify-content-center {
+    justify-content: flex-start;
+} */
+
+.py-1                {
+    padding: 1em 0;
+}
